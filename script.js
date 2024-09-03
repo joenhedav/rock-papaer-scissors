@@ -7,18 +7,18 @@ function getComputerChoice() {
     computerOption = Math.floor(Math.random() * max);
 
     if (computerOption === 0) {
-        computerOption ='rock';
+        computerOption ='Rock';
     } else if (computerOption === 1) {
-        computerOption = 'paper';
+        computerOption = 'Paper';
     } else {
-        computerOption = 'scissors';
+        computerOption = 'Scissors';
     }
     return computerOption;
 }
 
 function getHumanChoice() {
     let humanChoice = prompt('rock, paper or scissors?').toLocaleLowerCase();
-    if (humanChoice !== 'rock' && humanChoice !== 'paper' && humanChoice !== 'scissors') {
+    if (humanChoice !== 'Rock' && humanChoice !== 'Paper' && humanChoice !== 'Scissors') {
         return 'Enter a valid option';
     }
     return humanChoice;
