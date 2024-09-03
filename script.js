@@ -37,12 +37,11 @@ function playRound(player, computer) {
         computerScore++;
     } else if (player === computer){
         console.log('It\'s a tie');
-    } else {
-        console.log('Restart the game, try a valid option!');
     }
 }
 
 function playGame() {
+    
     for(let i = 0; i < 5; i++) {
         const humanSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
