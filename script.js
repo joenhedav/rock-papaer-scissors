@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', function() {
         playerScore = 0;
         computerScore = 0;
         let plyScr = document.querySelector('.player-scr');
-        plyScr.textContent = `Player: ${playerScore}`;
+        plyScr.textContent = `Player:${playerScore}`;
         let cpuScr = document.querySelector('.cpu-scr');
-        cpuScr.textContent = `CPU: ${computerScore}`;
+        cpuScr.textContent = `CPU:${computerScore}`;
         gameOver = true;
     }   
 });
